@@ -7,7 +7,7 @@
 
 ## Project Structure
 
-- `funcional/test_login_saucedemo.py`: functional test using Selenium (login on https://www.saucedemo.com/)  
+- `funcional/test_adicionar_produto.py`: functional test using Selenium (login on https://www.saucedemo.com/)  
 - `unitario/`: Python functions with unit tests using Pytest
 
 ## How to run
@@ -23,4 +23,4 @@ py test_adicionar_produto.py
 
 # Run unit tests (Pytest)
 cd ../unitario
-python -m pytest nome_do_arquivo.py -s
+python -m pytest test_utils.py -s
